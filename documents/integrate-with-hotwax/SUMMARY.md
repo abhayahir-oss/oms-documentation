@@ -15,8 +15,8 @@
           kind: openapi
           spec: available-to-promise
     ```
-* [Fulfillment](components/fulfillment/README.md)
-  * ```yaml
+```* [Fulfillment](components/fulfillment/README.md)
+  * yaml
     type: builtin:openapi
     props:
       models: true
@@ -25,7 +25,8 @@
         ref:
           kind: openapi
           spec: fulfillment
-    ```
+```
+    
 * [Inventory Count](components/inventory-count/README.md)
   * ```yaml
     type: builtin:openapi
@@ -35,7 +36,7 @@
       spec:
         ref:
           kind: openapi
-          spec: inventory-count
+          spec: inventory-count..
     ```
 * [Order Routing](components/order-routing/README.md)
   * ```yaml
